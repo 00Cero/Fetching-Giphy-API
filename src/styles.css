@@ -33,6 +33,33 @@ h3 {
   margin-bottom: 5px;
 }
 
+button {
+  padding: 6px 12px;
+  outline: none;
+  background-color: transparent;
+  border-radius: 2px;
+  color: inherit;
+  border: 2px solid #7f8199;
+}
+
+.searchInput {
+  padding: 8px 0;
+  display: flex;
+  gap: 6px;
+}
+
+.gifGrid {
+  padding: 16px 0;
+
+
+}
+
+.gifGrid h2 {
+  padding: 2px;
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+
 .card-grid {
   display: flex;
   flex-direction: row;

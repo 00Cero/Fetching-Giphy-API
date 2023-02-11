@@ -16,7 +16,7 @@ export const AddCategory = ( { onCategoryAdded } ) => {
   }
 
   return(
-    <form onSubmit={ onSubmit }>
+    <form className="searchInput" onSubmit={ onSubmit }>
       <input 
         type='text'
         placeholder="erpepe"
